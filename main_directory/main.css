@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(37, 35, 35); 
+}
+
+.wi {
+    font-size: 90px;
+    color: white;
+    padding: 20px;
+    -webkit-animation: spin 8s linear infinite;
+    animation: spin 8s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+
+.container p {
+    font-size: 25px;
+}
+.container {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+#tempunit {
+    color: #006dcc;
+    cursor: pointer;
+}
+
+#tempunit:hover {
+    color: rgb(0, 217, 255);
+}
+
+.biggertext {
+    font-size: 50px;
+}

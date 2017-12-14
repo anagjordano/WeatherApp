@@ -18,18 +18,17 @@
     <div class="container text-center">
         <h1 class="biggertext">Your Local Weather</h1>  
         <h4>Brought by Free Code Camp</h4>
-
-        <p><span id="city"></span> <span id="country"></span> </p>
-        <p><span id="temp"></span> <span id="tempunit"></span></p>
+        <br>
+        <br>
+        <p><span id="city"></span> <span id="country"></span></p>
+        <p><span id="localTime"></span> <input hidden type="checkbox" id="12-24Toggle"><label for="12-24Toggle" class="toggle">24h/12h Toggle</label></p>
+        <p><span id="temp"></span> <span class="toggle" id="tempunit">°C</span></p>
         <p id="weather"></p>
-        <p id='description'></p>
+        <p id='description'><span id="currentTime"></span></p>
+        <i class="wi"></i>
     </div>
 
-    <div class="text-center">
-            <i class="wi"></i>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="main.js"></script> 
 </body>
 </html>
